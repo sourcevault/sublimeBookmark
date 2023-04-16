@@ -1,3 +1,23 @@
+> ⛔️ This repo is a fork of the original [sublimeBookmark](https://github.com/sourcevault/sublimeBookmark) that removes the unnecessary outline around your bookmarks.
+
+Fork only works for Sublime Text 3 and above.
+
+To install:
+
+1. `cd` to where sublime text stores external packages, for example in my system (`WSL2 / windows 11`) the path looks like this (replace `%USERNAME%` with your username):
+
+    `cd /mnt/c/Users/%USERNAME%/AppData/Roaming/"Sublime Text"/Packages/User`
+
+2. **With Git:** Clone the repository in your Sublime Text Packages directory, located somewhere in user's "Home" directory::
+
+⛔️ make sure you clone **only** `st3` for sublime Text 3 or else it will not work.
+
+    ```
+    git clone -b st3 https://github.com/sourcevault/sublimeBookmark.git
+    ```
+
+-----
+
 SublimeBookmark
 ===============
 

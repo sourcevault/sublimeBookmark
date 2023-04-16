@@ -282,7 +282,7 @@ class SublimeBookmarkCommand(sublime_plugin.WindowCommand):
 		def markBuffer(view, bookmark):
 			uid = bookmark.getUid()
 			region  = bookmark.getRegion()
-			view.add_regions(str(uid), [region], "text.plain", "bookmark", sublime.DRAW_NO_FILL | sublime.DRAW_EMPTY_AS_OVERWRITE)
+			view.add_regions(str(uid), [region], "text.plain", "bookmark", sublime.HIDDEN | sublime.DRAW_EMPTY | sublime.DRAW_NO_FILL | sublime.DRAW_EMPTY_AS_OVERWRITE)
 
 		#unmarks the given bookmark on the buffer
 		def unmarkBuffer(view, bookmark):
