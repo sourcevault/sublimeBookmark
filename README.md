@@ -12,9 +12,7 @@ To install:
 
 ⛔️ make sure you clone **only** `st3` for sublime Text 3 or else it will not work.
 
-    ```
-    git clone -b st3 https://github.com/sourcevault/sublimeBookmark.git
-    ```
+    git clone https://github.com/sourcevault/sublimeBookmark.git
 
 -----
 
