@@ -6,7 +6,7 @@ To install:
 
 1. `cd` to where sublime text stores external packages, for example in my system (`WSL2 / windows 11`) the path looks like this (replace `%USERNAME%` with your username):
 
-    `cd /mnt/c/Users/%USERNAME%/AppData/Roaming/"Sublime Text"/Packages/User`
+    `cd /mnt/c/Users/%USERNAME%/AppData/Roaming/"Sublime Text"/Packages`
 
 2. **With Git:** Clone the repository in your Sublime Text Packages directory, located somewhere in user's "Home" directory::
 
