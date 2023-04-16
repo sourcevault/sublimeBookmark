@@ -1,21 +1,27 @@
-SublimeBookmark [UNMAINTAINED]
+> ⛔️ This repo is a fork of the original [sublimeBookmark](https://github.com/sourcevault/sublimeBookmark) that removes the unnecessary outline around your bookmarks.
+
+Fork only works for Sublime Text 3 and above.
+
+To install:
+
+1. `cd` to where sublime text stores external packages, for example in my system (`WSL2 / windows 11`) the path looks like this (replace `%USERNAME%` with your username):
+
+    `cd /mnt/c/Users/%USERNAME%/AppData/Roaming/"Sublime Text"/Packages/User`
+
+2. **With Git:** Clone the repository in your Sublime Text Packages directory, located somewhere in user's "Home" directory::
+
+⛔️ make sure you clone **only** `st3` for sublime Text 3 or else it will not work.
+
+    git clone -b st3 https://github.com/sourcevault/sublimeBookmark.git
+
+-----
+
+SublimeBookmark
 ===============
 
 a better bookmark system for SublimeText
 
 ![demo gif](http://i.imgur.com/gtjChPG.gif)
-
-
-Unmaintained
-============
-Unfortunately, being a college student doesn't leave me with time to fix the bugs that people seem to be having with
-this codebase. I do wish to rewrite this, since this was written when I was new to python. If **anyone** wishes to either
-1. Take ownership of the package
-2. Help me rewrite this
-
-Please do ping me, help is very appreciated `:)`
-
-
 
 Motivation
 ==========
@@ -27,7 +33,7 @@ Let's face it: sublime text's bookmark system __sucks__.
 
 This is a replacement for sublime text's bookmark functionality. It's slicker and easier to use, and has way more features. 
 
-**Note**: <del> As of now, This is only for **Sublime Text 3**. </del> False! It's been ported. Unfortunately, I havent' implement live preview and project based bookmark sorting. I'm not sure how to port these features over to Sublime Text 2. If someone knows, please do contact me!d
+**Note**: <del> As of now, This is only for **Sublime Text 3**. </del> False! It's been ported. Unfortunately, I havent' implement live preview and project based bookmark sorting. I'm not sure how to port these features over to Sublime Text 2. If someone knows, please do contact me!
 
 
 Features
@@ -77,8 +83,8 @@ To remove _all_ bookmarks, select the option ```SublimeBookmarks:Remove All Book
 
 ##Visibility Modes:##
 
-SublimeBookmarks has 3 visibility modes associated with it.
-The default mode is option 2.
+SublimeBookmarks has 3 visibility modes associated with it:
+
 
 ###1) View all Bookmarks###
 
@@ -104,7 +110,7 @@ This will only show bookmarks that belong to the current project.
 
  Press ```ctrl + shift + P```  on Windows / Linux or ```cmd + shift + P``` on Mac and select ```SublimeBookmarks:Show Only Bookmarks In Current File```
 
-This will only show bookmarks that belong to the current file.
+This will only show bookmarks that belong to the current project.
 
 Notes / Addendum
 ================
